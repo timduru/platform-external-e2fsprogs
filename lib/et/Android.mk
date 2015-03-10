@@ -58,7 +58,7 @@ LOCAL_C_INCLUDES := $(libext2_com_err_c_includes)
 LOCAL_CFLAGS := $(libext2_com_err_cflags) $(libext2_com_err_cflags_linux)
 LOCAL_STATIC_LIBRARIES := libc
 LOCAL_MODULE := libext2_com_err
-LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_TAGS := optional
 LOCAL_PRELINK_MODULE := false
 
 include $(BUILD_STATIC_LIBRARY)
